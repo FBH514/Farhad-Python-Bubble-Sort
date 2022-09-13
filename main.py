@@ -55,7 +55,7 @@ class BubbleSort:
         If input is valid, an informative message is printed to the console and the program proceeds to generate a
         random array of numbers, sort the array and print the sorted array to the console.
 
-        A timer is used to measure the program's performance.
+        time.perf_counter() is called to measure the program's performance.
         """
         print()
         if type(self.length) or type(self.largest) != int:
